@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	template="/WEB-INF/templates/default.xhtml">
+	<ui:define name="content">
+		<h1>Rate Retrieval Service</h1>
+
+		<div>
+			<h3>This application can run on:</h3>
+			<img src="resources/gfx/wildfly_400x130.jpg" />
+		</div>
+
+		<h2>EntroPay Rates Retrieval Assessment</h2>
+	</ui:define>
+	<ui:define name="links">
+		<h2>Links</h2>
+		<ul>
+			<li>
+			<a href="RestEndpoint/batch">Batch processing</a> 
+			</li>
+			<li>
+			<a href="RestEndpoint/rates">REST Retrieve all rates from database</a>
+			</li>
+			<li>
+			<a href="RestEndpoint/rate/1">REST Retrieve rate with id 1</a>
+			</li>
+			
+		</ul>
+
+	</ui:define>	
+</ui:composition>

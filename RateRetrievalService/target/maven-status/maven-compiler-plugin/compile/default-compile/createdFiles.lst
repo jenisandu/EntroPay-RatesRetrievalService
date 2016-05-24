@@ -1,0 +1,13 @@
+rest\RestEndpoint.class
+util\Rates.class
+jpa\Rate_.class
+rest\RatesResource.class
+rest\RateResource.class
+batch\RatesFileProcessor.class
+batch\BatchStatus.class
+util\DateSerializer.class
+batch\RatesFileReader.class
+jpa\Rate.class
+rest\BatchResource.class
+batch\RatesFileWriter.class
+batch\Parser.class
